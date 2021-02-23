@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 //route
 Route::get('/name/{id}', 'App\Http\Controllers\PostsController@show_name');
-
+//route get
 Route::get('/birth/{id}', 'App\Http\Controllers\PostsController@show_date');
 
 Route::get('/age/{id}', 'App\Http\Controllers\PostsController@show_age');
